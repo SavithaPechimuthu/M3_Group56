@@ -16,3 +16,4 @@
 | HLR_03 | LLR_02 | The alarm must be turned off using the push button. |
 | HLR_04 | LLR_01 | According to the switch, the led should be turned on.|
 | HLR_04 | LLR_02 | According to the push button, the led should turn on in a clockwise direction.|
+.
