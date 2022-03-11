@@ -41,5 +41,19 @@ What: The Bicom system is a feature of Keyless Enter-N-Go — Passive Entry and 
 When: unlocking the door on approach or when the door handle is pulled and locking it when the user walks away or touches the car on exit. 
 Why: vehicle is usually attained by sending a radio frequency signal from a remote transmitter to the receiver in the car. 
 How:  It work using radio signals that are emitted from the car and a key fob that searches for those signals 
-
+ ### High Level Requirements 
+ | HLR | Depiction |
+ |-----|-----------| 
+ | HLR_01 | It will print the door's status.|
+ | HLR_02 | It will print information regarding the car's battery.|
+ | HLR_03 | It will print the alert status. | 
+ | HLR_04 | It will print the window's state |
+ 
+ ### Low Level Requirements 
+ | HLR | LLR | Depiction |
+ |-----|-----|-----------|
+ | HLR_01 | LLR_01 | When you click the button, all of the LEDs turn anticlockwise.|
+ | HLR_02 | LLR_01 | When you click the button, all of the LEDs turn on in a clockwise direction.|
+ |HLR_03 | LLR_01 | When the button is pressed, all LEDs should turn off at the same time. |
+ |HLR_04 | LLR_01 | When the button is pressed, all LEDs should turn on at the same time. |
 
